@@ -14,7 +14,7 @@ cout<<"\n=====REGISTATION=====\n";
   //Check weather that username is valid or not
   
   if(username.empty()){
-    cout<<"Username can't be empty! \n";
+    cout<<"-----Username can't be empty!----- \n";
     return ;
   }
   
@@ -26,7 +26,7 @@ cout<<"\n=====REGISTATION=====\n";
   //Check weather that password is valid or not
   
   if(password.empty()){
-    cout<<"Password can't be empty! \n";
+    cout<<"-----Password can't be empty!----- \n";
     return ;  
   }
   
@@ -118,11 +118,11 @@ int main(){
       loginUser();
     }
     else if(choice == 3){
-cout<<"Thank You for using the system!\n";
+cout<<"-----Thank You for using the system!-----\n";
 break;
     }
     else{
-      cout<<"Invalid choice! Please try again.\n";
+      cout<<"-----Invalid choice! Please try again-----\n";
     }
   }
   return 0 ;
